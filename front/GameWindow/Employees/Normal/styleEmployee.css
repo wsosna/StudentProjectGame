@@ -1,0 +1,29 @@
+Button {
+    -fx-cursor: hand;
+    -fx-background-radius: 100;
+
+    -fx-background-color:
+            rgba(255, 255, 255, 0.09),
+            linear-gradient(rgba(255, 230, 59, 0.08) 50%, rgba(255, 161, 42, 0.16) 100%),
+            radial-gradient(center 50% -40%, radius 200%, rgba(255, 239, 66, 0.29) 45%, rgba(230,230,230,0) 50%);
+
+
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+
+}
+
+Button:hover {
+    -fx-border-radius: 100;
+    -fx-border-width: 2;
+    -fx-border-color: rgba(195, 195, 0, 0.64);
+    -fx-font-size: 20;
+}
+
+Button:pressed {
+    -fx-border-radius: 100;
+    -fx-border-width: 5;
+    -fx-border-color: rgba(195, 195, 0, 0.64);
+    -fx-font-size: 18;
+}

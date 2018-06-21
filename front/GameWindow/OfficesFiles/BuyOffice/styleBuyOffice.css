@@ -1,0 +1,29 @@
+Button {
+    -fx-cursor: hand;
+    -fx-border-style: dashed;
+    -fx-border-width: 2;
+    -fx-border-color: rgba(255, 0, 0, 0);
+    -fx-border-radius: 30;
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-text-fill: #96b946;
+
+    -fx-background-color:
+            #292328,
+            linear-gradient(#3c3c3c 50%, rgba(41, 35, 40, 0.95) 100%),
+            radial-gradient(center 50% -40%, radius 200%, rgba(29, 29, 29, 0.82) 45%, rgba(230,230,230,0) 50%);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+    -fx-effect: dropshadow( three-pass-box , rgba(61, 61, 61, 0.6), 3, 0.0 , 0 , 1 );
+}
+
+Button:hover {
+    -fx-font-size: 20px;
+
+}
+
+Button:pressed {
+    -fx-font-size: 18px;
+
+}
