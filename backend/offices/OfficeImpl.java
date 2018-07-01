@@ -8,7 +8,7 @@ import java.util.List;
 
 public class OfficeImpl
     implements Office{
-    private final int price = 300;
+    private int price;
     private final City location;
     private List<Employee> employeeList;
     private int gain;
@@ -17,6 +17,7 @@ public class OfficeImpl
         this.location = location;
         employeeList = new ArrayList<>();
         gain = 0;
+        price = 300;
     }
 
     @Override
@@ -38,6 +39,10 @@ public class OfficeImpl
     @Override
     public int getPrice() {
         return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     @Override

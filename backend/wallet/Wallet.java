@@ -29,7 +29,7 @@ public final class Wallet {
         bankBalance -= money;
     }
 
-    public int getBankBalance() {
+    public synchronized int getBankBalance() {
         return bankBalance;
     }
 
