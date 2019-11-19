@@ -1,11 +1,11 @@
 # OfficeMenager - student project
 
-### How it works?
-At first you will see the start window. After you click the start button - the game will go on!
+### How does it work?
+At first you can see the start window. After you click the start button - the game will go on!
 ![Ups...](https://images90.fotosik.pl/126/4ff18b747d498ed1gen.png)
 
 ##### Game window
-The game offers you three locations - Warsaw, London and Tokyo. You have 1000$ for beggining, the office cost 300$. When you have office, you can hire somebody. There are two classes of employees
+The game offers you three locations - Warsaw, London and Tokyo. You have 1000$ for beggining, the office cost 300$. When you own office, you can hire people. There are two classes of employees
 - normal
 - exclucive
 
